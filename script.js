@@ -16,7 +16,7 @@ const ctx = document.getElementById('myChart');
         data: [1, 2, 3, 3, 3, 4, 6],
         borderWidth: 1,
         backgroundColor: "#3aa6c2",
-        barThickness: 8
+        barThickness: 8,
     }]
     },
     options: {
