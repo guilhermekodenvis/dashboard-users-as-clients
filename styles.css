@@ -26,7 +26,7 @@ main {
 nav {
   display: flex;
   width: 120px;
-  height: 100vh;
+  height: 100%;
 
   padding: 20px;
 
@@ -295,4 +295,31 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (max-width: 1840px) {
+  main {
+    scale: 0.7;
+    transform-origin: top left;
+    width: 143vw;
+    height: 143vh;
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+
+  body {
+    max-height: 141vh;
+    overflow: hidden;
+  }
+
+  #myChart {
+    scale: 1.7;
+    transform: translateY(35px);
+  }
+
+  /* @apply lg:transform lg:scale-75 lg:origin-top-left lg:w-[133.33vw] lg:h-[133.33vh];
+	@apply 2xl:transform 2xl:scale-100 2xl:w-screen 2xl:h-screen; */
 }
