@@ -8,11 +8,15 @@ const ctx = document.getElementById('myChart');
         label: 'Views',
         data: [12, 19, 3, 5, 2, 3, 6],
         borderWidth: 1,
+        backgroundColor: "#b76164",
+        barThickness: 8
       },
     {
         label: 'Follows',
         data: [1, 2, 3, 3, 3, 4, 6],
-        borderWidth: 1
+        borderWidth: 1,
+        backgroundColor: "#3aa6c2",
+        barThickness: 8
     }]
     },
     options: {
@@ -29,6 +33,6 @@ const ctx = document.getElementById('myChart');
             text: ['10k', '20k', '30k', '40k', '50k']
           }
         }
-      }
+      },
     }
   });
