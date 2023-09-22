@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/f298bfa420.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <div class="circle-gradient circle-blue"></div>
+        <div class="circle-gradient circle-pink"></div>
+        <nav>
+            <img src="assets/bg.png" alt="Logo do Nexus" >
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tJTIwcGVyc29ufGVufDB8fDB8fHww&w=1000&q=80" alt="Foto do usuário" class="avatar">
+            <div class="menu">
+                <i class="fa-solid fa-house"></i>
+                <i class="fa-solid fa-money-bill"></i>
+                <i class="fa-solid fa-gear"></i>
+                <i class="fa-solid fa-circle-plus"></i>
+            </div>
+        </nav>
+        <div class="container">
+            <header>
+                <div class="header-title">
+                    <div class="header-left">
+                        <h1>
+                            Welcome to dashboard!
+                        </h1>
+                        <span>
+                            22/09/2023
+                        </span>
+                    </div>
+                    <div class="header-right">
+                        <div class="search">
+                            <i class="fa-solid fa-search"></i>
+                            <input type="text" placeholder="Search">
+                        </div>
+                        <i class="fa-solid fa-moon"></i>
+                        <i class="fa-solid fa-question"></i>
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                    </div>
+                </div>
+            </header>
+
+            <div class="inner-content">
+                <div>   
+                    <div class="card big-card">
+                        <h2>
+                            Activity on the page
+                        </h2>
+                        <div class="chart">
+                            <canvas id="myChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="card big-card">
+                        <h2>Schedule</h2>
+                        <div class="schedule">
+                            <h2>12</h2>
+                            <div>
+                                <h2>
+                                    Finance Meeting
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+                                </p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-clock"></i>
+                                <h2>09:00</h2>
+                            </div>
+                        </div>
+                        <div class="schedule">
+                            <h2>13</h2>
+                            <div>
+                                <h2>
+                                    Finance Meeting
+                                </h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-clock"></i>
+                                <h2>09:00</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="bottom-cards">
+                        <div class="card small-vertical-card">
+                            <h2>
+                                Account Reached
+                            </h2>
+                            <div>
+                                <i class="fa-solid fa-user-group"></i>
+                                <span>64K</span>
+                                <span>+15%</span>
+                            </div>
+                            <span>See stats</span>
+                        </div>
+                        <div class="card small-vertical-card">
+                            <h2>
+                                Account Engaged
+                            </h2>
+                            <div>
+                                <i class="fa-solid fa-bullseye"></i>
+                                <span>64K</span>
+                                <span>+15%</span>
+                            </div>
+                            <span>See stats</span>
+                        </div>
+                        <div class="card small-vertical-card">
+                            <h2>
+                                Avarage Reach
+                            </h2>
+                            <div>
+                                <i class="fa-solid fa-user-group"></i>
+                                <span>64K</span>
+                                <span>+15%</span>
+                            </div>
+                            <span>See stats</span>
+                        </div>
+                    </div>
+                    <div class="bottom-cards">
+                        <div class="card small-horizontal-card">
+                            <i class="fa-solid fa-piggy-bank"></i>
+                            <div>
+                                <h2>
+                                    $ 13.200
+                                </h2>
+                                <span>Earned this month</span>
+                            </div>
+                        </div>
+                        <div class="card small-horizontal-card">
+                            <i class="fa-solid fa-user-group"></i>
+                            <div>
+                                <h2>
+                                    42
+                                </h2>
+                                <span>New clients</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
