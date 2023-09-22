@@ -26,7 +26,7 @@ main {
 nav {
   display: flex;
   width: 120px;
-  height: 100%;
+  height: 100vh;
 
   padding: 20px;
 
@@ -305,6 +305,10 @@ h2 {
     height: 143vh;
   }
 
+  nav {
+    height: 100%;
+  }
+
   .container {
     width: 100%;
     height: 100%;
@@ -319,7 +323,4 @@ h2 {
     scale: 1.7;
     transform: translateY(35px);
   }
-
-  /* @apply lg:transform lg:scale-75 lg:origin-top-left lg:w-[133.33vw] lg:h-[133.33vh];
-	@apply 2xl:transform 2xl:scale-100 2xl:w-screen 2xl:h-screen; */
 }
